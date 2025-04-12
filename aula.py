@@ -1,49 +1,13 @@
-#if, else, e elif: condições se forem verdadeiras ou não
-#em python não temos a estrtura de { }
+#for variavel in range (inicio, fim, salto):
+
+i=0
+for i in range(0,5,1): #0 a 10, considera o ponto de parada -1, o terceiro parametro é opcional
+    print(f'executou {i} vez')
+
+e=0
+for e in range(0,-11,-1):
+    print(f'vc é um cara {e} ')
 
 
-numero1 = 1 
-numero2 = 10
-
-if (numero1 > numero2):
-    print(f'o valor {numero1} é maior que {numero2}')
-    print('se')
-    print("-------------------------------------------")
-elif(numero2 > numero1):
-    print(f'o valor {numero2} é maior que {numero1}')
-    print('se não')
-    print("-------------------------------------------")
-print('acabou o meu if')
-
-numeroo1 = 10 
-numeroo2 = 10
-
-if (numeroo1 > numeroo2):
-    print(f'o valor {numeroo1} é maior que {numeroo2}')
-    print('se')
-    print("-------------------------------------------")
-elif(numeroo2 > numeroo1):
-    print(f'o valor {numeroo2} é maior que {numeroo1}')
-    print('se não')
-    print("-------------------------------------------")
-else:
-    print(f'o valor de {numeroo1} é igual ao de {numeroo2}')
-    print('iguail')
-print('acabou o meu if')
-
-#---------------------------------------------------------------------------------------
-nu1=int(input('digite um numero'))
-nu2=int(input('digite outro numero'))
-if (nu1 > nu2):
-    print(f'o valor {nu1} é maior que {nu2}')
-    print('se')
-    print("-------------------------------------------")
-elif(nu2 > nu1):
-    print(f'o valor {nu1} é maior que {nu2}')
-    print('se não')
-    print("-------------------------------------------")
-else:
-    print(f'o valor de {nu1} é igual ao de {nu2}')
-    print('igual')
-print('acabou o meu if')
-
+for b in range(10):
+    print(f'print')
